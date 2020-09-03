@@ -5,4 +5,4 @@ EXPOSE 80
 FROM base AS final
 WORKDIR /app
 COPY publish /app 
-ENTRYPOINT ["dotnet", "PracticaContenedores.dll"]
+ENTRYPOINT ["dotnet", "APIUsuarios.dll"]
